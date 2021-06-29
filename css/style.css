@@ -10,11 +10,28 @@ body{
     font-family: 'Cousine', monospace;
 }
 
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* typo */
+
+h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+}
+
 /* header */
 header{
     position: fixed;
     top: 30px;
     right: 15px;
+    z-index: 10;
 }
 
 .main-menu li{
@@ -39,3 +56,33 @@ header{
     color: black;
     background-color: white;
 }
+
+/* main */
+section.product{
+    height: 100vh;
+    position: relative;
+}
+
+#bg-red{
+    background: red;
+    color: yellow;
+}
+
+#bg-green{
+    background-color: green;
+    color: yellow;
+}
+
+#bg-yellow{
+    background: yellow;
+    color: green;
+}
+
+.product .centered{
+    width: 50%;
+}
+
+.product .centered img{
+    width: 80%;
+}
+
