@@ -5,7 +5,12 @@
     box-sizing: border-box;
 }
 
+
 /* common */
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Cousine', monospace;
 }
@@ -18,13 +23,14 @@ body{
     text-align: center;
 }
 
-/* typo */
 
+/* typo */
 h1{
     text-transform: uppercase;
     font-size: 50px;
     font-weight: 700;
 }
+
 
 /* header */
 header{
@@ -57,23 +63,27 @@ header{
     background-color: white;
 }
 
+.main-menu li a:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
 /* main */
 section.product{
     height: 100vh;
     position: relative;
 }
 
-#bg-red{
+#bluejeans-sneakers{
     background: red;
     color: yellow;
 }
 
-#bg-green{
+#white-sneakers{
     background-color: green;
     color: yellow;
 }
 
-#bg-yellow{
+#all-star-sneakers{
     background: yellow;
     color: green;
 }
