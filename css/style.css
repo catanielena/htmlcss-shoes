@@ -12,7 +12,7 @@ html {
 }
 
 body{
-    font-family: 'Cousine', monospace;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
 .centered{
@@ -25,7 +25,7 @@ body{
 
 
 /* typo */
-h1{
+h2{
     text-transform: uppercase;
     font-size: 50px;
     font-weight: 700;
@@ -35,8 +35,9 @@ h1{
 /* header */
 header{
     position: fixed;
-    top: 30px;
-    right: 15px;
+    padding: 20px;
+    right: 0;
+    top: 0;
     z-index: 10;
 }
 
@@ -55,7 +56,6 @@ header{
     height: 50px;
     border-radius: 50%;
     font-size: 20px;
-    font-weight: 700;
     text-align: center;
     line-height: 50px;
     text-decoration: none;
@@ -66,6 +66,7 @@ header{
 
 .main-menu li a:hover{
     background-color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.2);
 }
 
 /* main */
@@ -90,7 +91,7 @@ section.product{
 }
 
 .product .centered{
-    width: 50%;
+    max-width: 40%;
 }
 
 .product .centered img{
